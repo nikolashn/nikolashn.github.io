@@ -16,13 +16,17 @@ body {
   <main>
     <h1>DiscordNomic library</h1>
 
-    <p>Last updated: 2025 Apr 01</p>
+    <p>Last updated: 2025 Apr 02</p>
 
     <hr/>
 
     <h2>Contents</h2>
     <ol>
-      <li><a href="#player-list">List of players</a></li>
+      <li><a href="#current-players">Current players</a></li>
+      <li><a href="#game-history">Game history</a></li>
+      <ol>
+        <li><a href="#game-1">Game 1</a></li>
+      </ol>
       <li><a href="#immutable">Immutable rules</a></li>
       <li><a href="#mutable">Mutable rules</a></li>
       <ol>
@@ -41,20 +45,55 @@ body {
 
     <hr/>
 
-    <h2 id="player-list">Players</h2>
+    <h2 id="current-players">Current players</h2>
 
-    <p>The list of players, in their turn order as determined by
+    <p>The list of current players, in their turn order as determined by
     <a href="301">Rule 301</a>.</p>
 
     <ol>
       <li>ardonis4</li>
       <li>arolev</li>
       <li>hexdepixel</li>
-      <li>nikolasnewaccount</li>
+      <li><a href="https://github.com/nikolashn">nikolasnewaccount</a></li>
       <li>torst_skagen</li>
       <li>various2111</li>
       <li>zenithseeker7</li>
     </ol>
+
+    <hr/>
+
+    <h2 id="history">Game history</h2>
+
+    <p>The list of past games.</p>
+
+    <h3 id="game-1">Game 1</h3>
+
+    <p>Timeframe: 2025 Apr 01–02.</p>
+
+    <p>Winner: nikolasnewaccount</p>
+
+    <p>Final points:
+    <ol>
+      <li>ardonis4: 0</li>
+      <li>arolev: 11</li>
+      <li>hexdepixel: 0</li>
+      <li>nikolasnewaccount: 200</li>
+      <li>torst_skagen: 0</li>
+      <li>various2111: 0</li>
+      <li>zenithseeker7: 10</li>
+      </li>
+    </ol></p>
+
+    <p>Proposals made: 301D, 302</p>
+
+    <p><em>nikolasnewaccount</em> won by exploiting an loophole in rule
+    <a href="116">116</a>, using the fact that addition of points to oneself was
+    not regulated to immediately grant themself 200 points and win the game, as
+    judged by <em>ardonis</em>. Also discussed was the acceptability of this action
+    taking place during another player's turn: it was judged that
+    <a href="202">202</a> does not restrict actions only to the two parts
+    specified therein, due to the provision of discussion and Judgement
+    elsewhere.</p>
 
     <hr/>
 
@@ -267,13 +306,14 @@ body {
 
     <h3 id="after-vote">After a vote</h3>
 
-    <p id="203"><strong>203. Rule change adoption</strong><br/>
-    A rule-change is adopted if and only if the vote is unanimous among the
-    eligible voters. If this rule is not amended by the end of the second
-    complete circuit of turns, it automatically changes to require only a
-    simple majority.</p>
+    <p id="302"><strong>302. Rule change adoption</strong><br/>
+    A rule-change is adopted if and only if the vote meets at least a simple
+    majority of all eligible players. If a rule-change acquires unanimous
+    support, then a quantity of bonus points equal to half the assenting votes
+    (rounded down) is awarded to the player.</p>
 
-    <p>Initial set, <a href="#203">Rule 203</a></p>
+    <p>Initial set, <a href="#203">Rule 203</a>
+    Amended, <a href="#p302">Proposal 302</a></p>
 
     <p id="204"><strong>204. Opposition reward</strong><br/>
     If and when rule-changes can be adopted without unanimity, the players who
@@ -374,6 +414,15 @@ body {
     <p>Initial set, <a href="#201">Rule 201</a><br/>
     Amended, <a href="#p301d">Proposal 301D</a></p>
 
+    <p id="203"><strong>203. Rule change adoption</strong><br/>
+    A rule-change is adopted if and only if the vote is unanimous among the
+    eligible voters. If this rule is not amended by the end of the second
+    complete circuit of turns, it automatically changes to require only a
+    simple majority.</p>
+
+    <p>Initial set, <a href="#203">Rule 203</a>
+    Amended, <a href="#p302">Proposal 302</a></p>
+
     <hr/>
 
     <h2 id="proposals">Proposals</h2>
@@ -387,7 +436,18 @@ body {
     otherwise only be updated by vote. Turns may not be skipped or passed, and
     parts of turns may not be omitted. All players begin with zero points.</p>
 
-    <p>Proposed on turn 1 by <em>ardonis4</em>, adopted 2025 Apr 01.</p>
+    <p>Proposed in game 1 on turn 1 by <em>ardonis4</em> (later judged to belong
+    to <em>zenithseeker7</em> instead), adopted 2025 Apr 01.</p>
+
+    <p id="p302"><strong>302</strong><br/>
+    Amend Rule 203 to read as follows:</p>
+
+    <p>A rule-change is adopted if and only if the vote meets at least a simple
+    majority of all eligible players. If a rule-change acquires unanimous
+    support, then a quantity of bonus points equal to half the assenting votes
+    (rounded down) is awarded to the player.</p>
+
+    <p>Proposed in game 1 on turn 2 by <em>arolev</em>, adopted 2025 Apr 02.</p>
 
     <hr/>
   </main>

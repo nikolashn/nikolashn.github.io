@@ -22,7 +22,7 @@ h1, h2, h3 {
   <main>
     <h1>DiscordNomic library</h1>
 
-    <p>Last updated: 2025 Apr 04</p>
+    <p>Last updated: 2025 Apr 10</p>
 
     <hr/>
 
@@ -48,6 +48,8 @@ h1, h2, h3 {
       <li><a href="#game-history">Game history</a></li>
       <ol>
         <li><a href="#game-1">Game 1</a></li>
+        <li><a href="#game-2">Game 2</a></li>
+        <li><a href="#game-3">Game 3</a></li>
       </ol>
     </ol>
 
@@ -70,13 +72,13 @@ h1, h2, h3 {
     <a href="#301">Rule 301</a>.</p>
 
     <ol>
-      <li>hexdepixel</li>
-      <li><a href="https://github.com/nikolashn">nikolasnewaccount</a></li>
       <li>torst_skagen</li>
       <li>various2111</li>
       <li>zenithseeker7</li>
       <li>ardonis4</li>
       <li>arolev</li>
+      <li>hexdepixel</li>
+      <li><a href="https://github.com/nikolashn">nikolasnewaccount</a></li>
     </ol>
 
     <hr/>
@@ -318,6 +320,16 @@ h1, h2, h3 {
 
     <p>Enacted, <a href="#p304">Proposal 304</a></p>
 
+    <p id="307"><strong>307. <em>n</em>-Tuple Nomic</strong><br/>
+    When every player has had their turn once and the game goes into a round 2,
+    it enters int a stage known as <em>Double Nomic</em> where any amount of
+    points awarded or stripped is doubled from what it would be in the base
+    game. When the game goes into round 3, the base points are instead tripled,
+    bringing about <em>Triple Nomic</em>, and so on and so forth. This chain is
+    reset and goes back to normal Nomic once a run ends.</p>
+
+    <p>Enacted, <a href="#p307">Proposal 307</a></p>
+
     <h3 id="judgement">Judgement</h3>
 
     <p id="212"><strong>212. Judges</strong><br/>
@@ -353,27 +365,49 @@ h1, h2, h3 {
 
     <h3 id="decorum">Decorum</h3>
 
-    <p id="305"><strong>305. Honorifics</strong><br/>
-    Rules may grant and revoke Honorifics to and from players, which are to be
-    used with a player's name. An Honorific may not be granted other than by a
-    rule or as specified in other rules, and may not be revoked other than by a
-    rule, or as specified in other rules, or by a player holding the Honorific
-    renouncing their own Honorific, unless renouncing that particular Honorific
-    is made impermissible.</p>
+    <p id="306"><strong>306. Honorifics</strong><br/>
+    Replaces Rule 305.</p> 
 
-    <p>When a player refers to another by name anywhere on the server, if
-    applicable, all Honorifics must be used with that name. If they omit an
-    Honorific, for each instance the offender is to lose 10 points per Honorific
-    omitted, and the victim compensated 10 points per Honorific omitted. The
-    offender is to gain the Honorific "Wrong Dishonourable" which the offender
-    may not renounce.</p>
+    <p>Each player possesses a variable set of honorific title, henceforth
+    Honorifics, initially having none.</p>
 
-    <p>During a player's turn, they are to have the Honorific "Sir Name", which
-    is revoked at the end of their turn. While a player is Judge, they are to
-    have the Honorific "Big Judge Man", which is revoked at the end of the turn
-    for which they are Judge.</p>
+    <p>Honorifics may only be granted or renounced according to the text of
+    rules.</p>
 
-    <p>Enacted, <a href="#p305">Proposal 305</a></p>
+    <p>A player may renounce any of their own Honorifics, unless doing so would
+    violate a rule.</p>
+
+    <p>When a player refers to another by name in the channel #gameplay, they
+    must include all of that player's Honorifics prior to the name itself. For
+    each Honorific not included, the offending player must forfeit 10 points.
+    The offending player subsequently obtains the Honorific "Wrong
+    Dishonourable", which they must not renounce for at least three turns.</p>
+
+    <p>Each player possesses the Honorific 'Sir' if and only if it is currently
+    their turn. This may not be renounced.</p>
+
+    <p>Each player possesses the Honorific 'Big Judge Man' if and only if they
+    are currently Judge. This may not be renounced.</p>
+
+    <p>Enacted, <a href="#p305">Proposal 305</a>,<br/>
+    Amended, <a href="#p306">Proposal 306</a></p>
+
+    <p id="308"><strong>308. Victorious Honorifics</strong><br/>
+    The winner of the previous game (henceforth winner) possesses a special type
+    of Honorific for the length of the current game. They may not renounce this
+    Honorific.</p>
+
+    <p>Whenever this player is referred to, an Honorific that has not previously
+    been used to describe them during the course of the current game must be
+    used, in addition to any Honorifics they would otherwise possess.</p>
+
+    <p>This Honorific must either refer to the fact that the player won the
+    previous game or otherwise praise them generally.</p>
+
+    <p>Violating any of these rules shall carry the same punishment as
+    neglecting to use a prescribed Honorific.</p>
+
+    <p>Enacted, <a href="#p308">Proposal 308</a>.</p>
 
     <h3 id="end">End of a game</h3>
 
@@ -448,6 +482,29 @@ h1, h2, h3 {
     <p>Initial set, <a href="#204">Rule 204</a>,
     Repealed by <a href="#p304">Proposal 304</a></p>
 
+    <p id="305"><strong>305. Honorifics</strong><br/>
+    Rules may grant and revoke Honorifics to and from players, which are to be
+    used with a player's name. An Honorific may not be granted other than by a
+    rule or as specified in other rules, and may not be revoked other than by a
+    rule, or as specified in other rules, or by a player holding the Honorific
+    renouncing their own Honorific, unless renouncing that particular Honorific
+    is made impermissible.</p>
+
+    <p>When a player refers to another by name anywhere on the server, if
+    applicable, all Honorifics must be used with that name. If they omit an
+    Honorific, for each instance the offender is to lose 10 points per Honorific
+    omitted, and the victim compensated 10 points per Honorific omitted. The
+    offender is to gain the Honorific "Wrong Dishonourable" which the offender
+    may not renounce.</p>
+
+    <p>During a player's turn, they are to have the Honorific "Sir Name", which
+    is revoked at the end of their turn. While a player is Judge, they are to
+    have the Honorific "Big Judge Man", which is revoked at the end of the turn
+    for which they are Judge.</p>
+
+    <p>Enacted, <a href="#p305">Proposal 305</a>,
+    Amended by <a href="#p306">Proposal 306</a></p>
+
     <hr/>
 
     <h2 id="proposals">Proposals</h2>
@@ -513,6 +570,62 @@ h1, h2, h3 {
     <p>Proposed in game 2 on turn 2 by <em>nikolasnewaccount</em>, adopted 2025
     Apr 04, following a 7/7 vote in favour.</p>
 
+    <p id="p306"><strong>Proposal 306</strong><br/>
+    Replaces Rule 305.</p> 
+
+    <p>Each player possesses a variable set of honorific title, henceforth
+    Honorifics, initially having none.</p>
+
+    <p>Honorifics may only be granted or renounced according to the text of
+    rules.</p>
+
+    <p>A player may renounce any of their own Honorifics, unless doing so would
+    violate a rule.</p>
+
+    <p>When a player refers to another by name in the channel #gameplay, they
+    must include all of that player's Honorifics prior to the name itself. For
+    each Honorific not included, the offending player must forfeit 10 points.
+    The offending player subsequently obtains the Honorific "Wrong
+    Dishonourable", which they must not renounce for at least three turns.</p>
+
+    <p>Each player possesses the Honorific 'Sir' if and only if it is currently
+    their turn. This may not be renounced.</p>
+
+    <p>Each player possesses the Honorific 'Big Judge Man' if and only if they
+    are currently Judge. This may not be renounced.</p>
+
+    <p>Proposed in the interlude between game 2 and 3, enacted 2025 Apr 06 by
+    admin <em>nikolasnewaccount</em>.</p>
+
+    <p id="p307"><strong>Proposal 307</strong><br/>
+    When every player has had their turn once and the game goes into a round 2,
+    it enters int a stage known as <em>Double Nomic</em> where any amount of
+    points awarded or stripped is doubled from what it would be in the base
+    game. When the game goes into round 3, the base points are instead tripled,
+    bringing about <em>Triple Nomic</em>, and so on and so forth. This chain is
+    reset and goes back to normal Nomic once a run ends.</p>
+
+    <p>Proposed in game 3 on turn 1 by <em>torst_skagen</em>, adopted 2025 Apr
+    08, following a 7/7 vote in favour.</p>
+
+    <p id="p308"><strong>Proposal 308</strong><br/>
+    The winner of the previous game (henceforth winner) possesses a special type
+    of Honorific for the length of the current game. They may not renounce this
+    Honorific.</p>
+
+    <p>Whenever this player is referred to, an Honorific that has not previously
+    been used to describe them during the course of the current game must be
+    used, in addition to any Honorifics they would otherwise possess.</p>
+
+    <p>This Honorific must either refer to the fact that the player won the
+    previous game or otherwise praise them generally.</p>
+
+    <p>Violating any of these rules shall carry the same punishment as
+    neglecting to use a prescribed Honorific.</p>
+
+    <p>Proposed in game 3 on turn 2 by <em>various2111</em>, adopted 2025 Apr
+    10, following a 7/7 vote in favour.</p>
+
     <hr/>
 
     <h2 id="history">Game history</h2>
@@ -548,9 +661,35 @@ h1, h2, h3 {
     to the two parts specified therein, due to the provision of discussion and
     Judgement elsewhere.</p>
 
-    <h3 id="game-1">Game 2</h3>
+    <h3 id="game-2">Game 2</h3>
 
-    <p>Timeframe: 2025 Apr 02–.</p>
+    <p>Timeframe: 2025 Apr 02–05.</p>
+
+    <p>Winner: <em>nikolasnewaccount</em>, after 2 rounds</p>
+
+    <p>Final points:
+    <ol>
+      <li>ardonis4: 10</li>
+      <li>arolev: 0</li>
+      <li>hexdepixel: 11</li>
+      <li>nikolasnewaccount: 17</li>
+      <li>torst_skagen: 200</li>
+      <li>various2111: -200</li>
+      <li>zenithseeker7: 0</li>
+      </li>
+    </ol></p>
+
+    <p>Proposals made: <a href="#p304">304</a>, <a href="#p305">305</a></p>
+
+    <p>Commentary: <em>torst_skagen</em> unintentionally won, when
+    <em>various2111</em> exploited the aspect of <a href="#305">Rule 305</a>
+    that awarded points for forgetting Honorifics to the victim <em>per
+    Honorific missed, per name</em>, by naming <em>torst_skagen</em> 20 times in
+    a message, thereby allowing him to obtain the winning 200 points.</p>
+
+    <h3 id="game-3">Game 3</h3>
+
+    <p>Timeframe: 2025 Apr 06–.</p>
 
     <hr/>
   </main>
